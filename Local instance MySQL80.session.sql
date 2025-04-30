@@ -55,7 +55,7 @@ VALUES
     (23507, 'zainab22', 'zainab.ahmed@mail.com', '45c48cce2e2d7fbdea1afc51c7c6ad26', 'Zainab Ahmed', '07088992244', '2025-04-02 14:00:00', '2025-04-08 13:00:00'),
     (23509, 'daniel_d', 'daniel.daniels@gmail.com', '6512bd43d9caa6e02c990b0a82652dca', 'Daniel Daniels', '08133225566', '2025-04-06 11:50:00', '2025-04-10 16:00:00'),
     (23511, 'bukky_ade', 'bukky.ade@gmail.com', 'c20ad4d76fe97759aa27a0c99bff6710', 'Bukky Adeniran', '08055664432', '2025-04-05 09:30:00', '2025-04-09 12:00:00'),
-    (23513, 'emeka_j', 'emeka.johnson@mail.com', 'c51ce410c124a10e0db5e4b97fc2af39', 'Emeka Johnson', '09022334567', '2025-04-08 07:20:00', '2025-04-10 18:00:00'),
+    (23513, 'emeka_j', 'emeka.johnson@mail.com', 'c51ce410c124a10e0db5e4b97fc2af39', 'Emeka Johnson', '09022337567', '2025-04-08 07:20:00', '2025-04-10 18:00:00'),
     (23515, 'maryam_bello', 'maryam.bello@yahoo.com', 'aab3238922bcc25a6f606eb525ffdc56', 'Maryam Bello', '08120002233', '2025-04-09 13:45:00', '2025-04-10 19:00:00');
 
 INSERT INTO drivers (
@@ -411,3 +411,30 @@ VALUES (
         'profile_pic15.jpg'
     );
 
+CREATE TABLE bus_schedules (
+    pickup_location VARCHAR(100),
+    dropoff_location VARCHAR(100),
+    price_naira DECIMAL(10, 2),
+    pickup_time TIMESTAMP,
+    bus_number VARCHAR(20),
+    driver_name VARCHAR(100)
+);
+
+
+INSERT INTO bus_schedules (pickup_location, dropoff_location, price_naira, pickup_time, bus_number, driver_name)
+VALUES
+('Ring Road', 'Uselu', 500.00, '2025-04-30 08:00:00', 'BEN001', 'John Doe'),
+('Sapele Road', 'Ikpoba Hill', 600.00, '2025-04-30 08:15:00', 'BEN002', 'Mary Smith'),
+('Ugbowo', 'New Benin', 550.00, '2025-04-30 08:30:00', 'BEN003', 'Emma Jones'),
+('Ekenwan Road', 'Airport Road', 700.00, '2025-04-30 09:00:00', 'BEN004', 'James Williams'),
+('Ring Road', 'Oregbeni', 650.00, '2025-04-30 09:15:00', 'BEN005', 'Olivia Brown'),
+('New Benin', 'Ugbowo', 500.00, '2025-04-30 09:30:00', 'BEN006', 'Liam Davis'),
+('Sapele Road', 'Ring Road', 450.00, '2025-04-30 10:00:00', 'BEN007', 'Isabella Martin'),
+('Ikpoba Hill', 'Ekenwan Road', 600.00, '2025-04-30 10:15:00', 'BEN008', 'Ava Johnson'),
+('Airport Road', 'Uselu', 750.00, '2025-04-30 10:30:00', 'BEN009', 'Benjamin Moore'),
+('Oregbeni', 'New Benin', 550.00, '2025-04-30 10:45:00', 'BEN010', 'Ethan White'),
+('Ring Road', 'Ekenwan Road', 500.00, '2025-04-30 11:00:00', 'BEN011', 'Lucas Harris'),
+('Uselu', 'Ikpoba Hill', 600.00, '2025-04-30 11:15:00', 'BEN012', 'Mason Clark'),
+('Ugbowo', 'Sapele Road', 500.00, '2025-04-30 11:30:00', 'BEN013', 'Mia Lewis'),
+('New Benin', 'Ring Road', 450.00, '2025-04-30 11:45:00', 'BEN014', 'Jackson Wilson'),
+('Oregbeni', 'Airport Road', 700.00, '2025-04-30 12:00:00', 'BEN015', 'Sofia Kelly');

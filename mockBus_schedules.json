@@ -1,0 +1,139 @@
+{
+    "bus_schedules": [
+        {
+            "pickup_location": "Ring Road",
+            "dropoff_location": "Uselu",
+            "price_naira": 500.00,
+            "pickup_time": "08:00:00",
+            "available_days": "Monday, Tuesday, Wednesday, Thursday, Friday",
+            "bus_number": "BEN001",
+            "driver_name": "John Doe"
+        },
+        {
+            "pickup_location": "Sapele Road",
+            "dropoff_location": "Ikpoba Hill",
+            "price_naira": 600.00,
+            "pickup_time": "08:15:00",
+            "available_days": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday",
+            "bus_number": "BEN002",
+            "driver_name": "Mary Smith"
+        },
+        {
+            "pickup_location": "Ugbowo",
+            "dropoff_location": "New Benin",
+            "price_naira": 550.00,
+            "pickup_time": "08:30:00",
+            "available_days": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "bus_number": "BEN003",
+            "driver_name": "Emma Jones"
+        },
+        {
+            "pickup_location": "Ekenwan Road",
+            "dropoff_location": "Airport Road",
+            "price_naira": 700.00,
+            "pickup_time": "09:00:00",
+            "available_days": "Saturday, Sunday",
+            "bus_number": "BEN004",
+            "driver_name": "James Williams"
+        },
+        {
+            "pickup_location": "Ring Road",
+            "dropoff_location": "Oregbeni",
+            "price_naira": 650.00,
+            "pickup_time": "09:15:00",
+            "available_days": "Monday, Tuesday, Wednesday, Thursday, Friday",
+            "bus_number": "BEN005",
+            "driver_name": "Olivia Brown"
+        },
+        {
+            "pickup_location": "New Benin",
+            "dropoff_location": "Ugbowo",
+            "price_naira": 500.00,
+            "pickup_time": "09:30:00",
+            "available_days": "Monday, Wednesday, Friday",
+            "bus_number": "BEN006",
+            "driver_name": "Liam Davis"
+        },
+        {
+            "pickup_location": "Sapele Road",
+            "dropoff_location": "Ring Road",
+            "price_naira": 450.00,
+            "pickup_time": "10:00:00",
+            "available_days": "Tuesday, Thursday, Saturday",
+            "bus_number": "BEN007",
+            "driver_name": "Isabella Martin"
+        },
+        {
+            "pickup_location": "Ikpoba Hill",
+            "dropoff_location": "Ekenwan Road",
+            "price_naira": 600.00,
+            "pickup_time": "10:15:00",
+            "available_days": "Saturday, Sunday",
+            "bus_number": "BEN008",
+            "driver_name": "Ava Johnson"
+        },
+        {
+            "pickup_location": "Airport Road",
+            "dropoff_location": "Uselu",
+            "price_naira": 750.00,
+            "pickup_time": "10:30:00",
+            "available_days": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "bus_number": "BEN009",
+            "driver_name": "Benjamin Moore"
+        },
+        {
+            "pickup_location": "Oregbeni",
+            "dropoff_location": "New Benin",
+            "price_naira": 550.00,
+            "pickup_time": "10:45:00",
+            "available_days": "Monday, Tuesday, Wednesday, Thursday, Friday",
+            "bus_number": "BEN010",
+            "driver_name": "Ethan White"
+        },
+        {
+            "pickup_location": "Ring Road",
+            "dropoff_location": "Ekenwan Road",
+            "price_naira": 500.00,
+            "pickup_time": "11:00:00",
+            "available_days": "Monday, Wednesday, Friday",
+            "bus_number": "BEN011",
+            "driver_name": "Lucas Harris"
+        },
+        {
+            "pickup_location": "Uselu",
+            "dropoff_location": "Ikpoba Hill",
+            "price_naira": 600.00,
+            "pickup_time": "11:15:00",
+            "available_days": "Saturday, Sunday",
+            "bus_number": "BEN012",
+            "driver_name": "Mason Clark"
+        },
+        {
+            "pickup_location": "Ugbowo",
+            "dropoff_location": "Sapele Road",
+            "price_naira": 500.00,
+            "pickup_time": "11:30:00",
+            "available_days": "Tuesday, Thursday, Saturday",
+            "bus_number": "BEN013",
+            "driver_name": "Mia Lewis"
+        },
+        {
+            "pickup_location": "New Benin",
+            "dropoff_location": "Ring Road",
+            "price_naira": 450.00,
+            "pickup_time": "11:45:00",
+            "available_days": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "bus_number": "BEN014",
+            "driver_name": "Jackson Wilson"
+        },
+        {
+            "pickup_location": "Oregbeni",
+            "dropoff_location": "Airport Road",
+            "price_naira": 700.00,
+            "pickup_time": "12:00:00",
+            "available_days": "Monday, Tuesday, Wednesday, Thursday, Friday",
+            "bus_number": "BEN015",
+            "driver_name": "Sofia Kelly"
+        }
+    ]
+}

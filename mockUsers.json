@@ -1,0 +1,144 @@
+{
+    "users": [
+        {
+            "user_id": 23489,
+            "username": "kemi2025",
+            "email": "kemi.adewale@yahoo.com",
+            "password_hash": "6cf615d5f1c8e3e3b2f3e2f3e2f3e2f3e2f3e2f3e2f3e2f3e2f3e2f3e2f3",
+            "full_name": "Kemi Adewale",
+            "phone_number": "07034567891",
+            "created_at": "2025-03-25 12:30:00",
+            "last_login": "2025-04-05 13:45:00"
+        },
+        {
+            "user_id": 23491,
+            "username": "ugochukwu90",
+            "email": "ugo.chuks@mail.com",
+            "password_hash": "7b8b965ad4bca0e41ab51de7b31363a1",
+            "full_name": "Ugochukwu Nwosu",
+            "phone_number": "08123456789",
+            "created_at": "2025-04-05 09:15:00",
+            "last_login": "2025-04-10 10:00:00"
+        },
+        {
+            "user_id": 23493,
+            "username": "hadiza_m",
+            "email": "hadiza.musa@gmail.com",
+            "password_hash": "9c1185a5c5e9fc54612808977ee8f548b2258d31",
+            "full_name": "Hadiza Musa",
+            "phone_number": "07086759034",
+            "created_at": "2025-04-03 11:20:00",
+            "last_login": "2025-04-09 14:30:00"
+        },
+        {
+            "user_id": 23495,
+            "username": "seyi_tunde",
+            "email": "seyi.tunde@outlook.com",
+            "password_hash": "2fd4e1c67a2d28fced849ee1bb76e7391b93eb12",
+            "full_name": "Seyi Tunde",
+            "phone_number": "09031245890",
+            "created_at": "2025-03-30 14:50:00",
+            "last_login": "2025-04-08 09:00:00"
+        },
+        {
+            "user_id": 23497,
+            "username": "faithoma",
+            "email": "faith.omagbemi@yahoo.com",
+            "password_hash": "3c363836cf4e16666669a25da280a1865c2d2874",
+            "full_name": "Faith Omagbemi",
+            "phone_number": "08149001234",
+            "created_at": "2025-04-04 08:00:00",
+            "last_login": "2025-04-07 15:00:00"
+        },
+        {
+            "user_id": 23499,
+            "username": "ibrahim_g",
+            "email": "ibrahimgarba@mail.com",
+            "password_hash": "4e07408562bedb8b60ce05c1decfe3ad16b722309",
+            "full_name": "Ibrahim Garba",
+            "phone_number": "07055664321",
+            "created_at": "2025-03-31 17:45:00",
+            "last_login": "2025-04-06 12:00:00"
+        },
+        {
+            "user_id": 23501,
+            "username": "nonso_e",
+            "email": "nonso.eze@gmail.com",
+            "password_hash": "ef2d127de37b942a2f4d2d1b0b9f8f8f8f8f8f8f",
+            "full_name": "Nonso Eze",
+            "phone_number": "08178906543",
+            "created_at": "2025-04-06 10:25:00",
+            "last_login": "2025-04-09 17:00:00"
+        },
+        {
+            "user_id": 23503,
+            "username": "adaeze01",
+            "email": "adaeze.obi@mail.com",
+            "password_hash": "1c383cd30b7c298ab50293adfecb7b18",
+            "full_name": "Adaeze Obi",
+            "phone_number": "08099001122",
+            "created_at": "2025-04-07 16:00:00",
+            "last_login": "2025-04-10 09:00:00"
+        },
+        {
+            "user_id": 23505,
+            "username": "tobi_victor",
+            "email": "tobi.victor@naija.com",
+            "password_hash": "8e296a067a37563370ded05f5a3bf3ec",
+            "full_name": "Tobi Victor",
+            "phone_number": "09021113445",
+            "created_at": "2025-04-01 12:15:00",
+            "last_login": "2025-04-05 11:00:00"
+        },
+        {
+            "user_id": 23507,
+            "username": "zainab22",
+            "email": "zainab.ahmed@mail.com",
+            "password_hash": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+            "full_name": "Zainab Ahmed",
+            "phone_number": "07088992244",
+            "created_at": "2025-04-02 14:00:00",
+            "last_login": "2025-04-08 13:00:00"
+        },
+        {
+            "user_id": 23509,
+            "username": "daniel_d",
+            "email": "daniel.daniels@gmail.com",
+            "password_hash": "6512bd43d9caa6e02c990b0a82652dca",
+            "full_name": "Daniel Daniels",
+            "phone_number": "08133225566",
+            "created_at": "2025-04-06 11:50:00",
+            "last_login": "2025-04-10 16:00:00"
+        },
+        {
+            "user_id": 23511,
+            "username": "bukky_ade",
+            "email": "bukky.ade@gmail.com",
+            "password_hash": "c20ad4d76fe97759aa27a0c99bff6710",
+            "full_name": "Bukky Adeniran",
+            "phone_number": "08055664432",
+            "created_at": "2025-04-05 09:30:00",
+            "last_login": "2025-04-09 12:00:00"
+        },
+        {
+            "user_id": 23513,
+            "username": "emeka_j",
+            "email": "emeka.johnson@mail.com",
+            "password_hash": "c51ce410c124a10e0db5e4b97fc2af39",
+            "full_name": "Emeka Johnson",
+            "phone_number": "09022337567",
+            "created_at": "2025-04-08 07:20:00",
+            "last_login": "2025-04-10 18:00:00"
+        },
+        {
+            "user_id": 23515,
+            "username": "maryam_bello",
+            "email": "maryam.bello@yahoo.com",
+            "password_hash": "aab3238922bcc25a6f606eb525ffdc56",
+            "full_name": "Maryam Bello",
+            "phone_number": "08120002233",
+            "created_at": "2025-04-09 13:45:00",
+            "last_login": "2025-04-10 19:00:00"
+        }
+    ]
+}

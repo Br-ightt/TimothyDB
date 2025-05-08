@@ -411,30 +411,31 @@ VALUES (
         'profile_pic15.jpg'
     );
 
+DROP TABLE IF EXISTS bus_schedules;
+
 CREATE TABLE bus_schedules (
     pickup_location VARCHAR(100),
     dropoff_location VARCHAR(100),
     price_naira DECIMAL(10, 2),
-    pickup_time TIMESTAMP,
+    pickup_time TIME,
+    available_days VARCHAR(100),
     bus_number VARCHAR(20),
     driver_name VARCHAR(100)
 );
-
-
-INSERT INTO bus_schedules (pickup_location, dropoff_location, price_naira, pickup_time, bus_number, driver_name)
+INSERT INTO bus_schedules (pickup_location, dropoff_location, price_naira, pickup_time, available_days, bus_number, driver_name)
 VALUES
-('Ring Road', 'Uselu', 500.00, '2025-04-30 08:00:00', 'BEN001', 'John Doe'),
-('Sapele Road', 'Ikpoba Hill', 600.00, '2025-04-30 08:15:00', 'BEN002', 'Mary Smith'),
-('Ugbowo', 'New Benin', 550.00, '2025-04-30 08:30:00', 'BEN003', 'Emma Jones'),
-('Ekenwan Road', 'Airport Road', 700.00, '2025-04-30 09:00:00', 'BEN004', 'James Williams'),
-('Ring Road', 'Oregbeni', 650.00, '2025-04-30 09:15:00', 'BEN005', 'Olivia Brown'),
-('New Benin', 'Ugbowo', 500.00, '2025-04-30 09:30:00', 'BEN006', 'Liam Davis'),
-('Sapele Road', 'Ring Road', 450.00, '2025-04-30 10:00:00', 'BEN007', 'Isabella Martin'),
-('Ikpoba Hill', 'Ekenwan Road', 600.00, '2025-04-30 10:15:00', 'BEN008', 'Ava Johnson'),
-('Airport Road', 'Uselu', 750.00, '2025-04-30 10:30:00', 'BEN009', 'Benjamin Moore'),
-('Oregbeni', 'New Benin', 550.00, '2025-04-30 10:45:00', 'BEN010', 'Ethan White'),
-('Ring Road', 'Ekenwan Road', 500.00, '2025-04-30 11:00:00', 'BEN011', 'Lucas Harris'),
-('Uselu', 'Ikpoba Hill', 600.00, '2025-04-30 11:15:00', 'BEN012', 'Mason Clark'),
-('Ugbowo', 'Sapele Road', 500.00, '2025-04-30 11:30:00', 'BEN013', 'Mia Lewis'),
-('New Benin', 'Ring Road', 450.00, '2025-04-30 11:45:00', 'BEN014', 'Jackson Wilson'),
-('Oregbeni', 'Airport Road', 700.00, '2025-04-30 12:00:00', 'BEN015', 'Sofia Kelly');
+('Ring Road', 'Uselu', 500.00, '08:00:00', 'Monday, Tuesday, Wednesday, Thursday, Friday', 'BEN001', 'John Doe'),
+('Sapele Road', 'Ikpoba Hill', 600.00, '08:15:00', 'Monday, Tuesday, Wednesday, Thursday, Friday, Saturday', 'BEN002', 'Mary Smith'),
+('Ugbowo', 'New Benin', 550.00, '08:30:00', 'Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday', 'BEN003', 'Emma Jones'),
+('Ekenwan Road', 'Airport Road', 700.00, '09:00:00', 'Saturday, Sunday', 'BEN004', 'James Williams'),
+('Ring Road', 'Oregbeni', 650.00, '09:15:00', 'Monday, Tuesday, Wednesday, Thursday, Friday', 'BEN005', 'Olivia Brown'),
+('New Benin', 'Ugbowo', 500.00, '09:30:00', 'Monday, Wednesday, Friday', 'BEN006', 'Liam Davis'),
+('Sapele Road', 'Ring Road', 450.00, '10:00:00', 'Tuesday, Thursday, Saturday', 'BEN007', 'Isabella Martin'),
+('Ikpoba Hill', 'Ekenwan Road', 600.00, '10:15:00', 'Saturday, Sunday', 'BEN008', 'Ava Johnson'),
+('Airport Road', 'Uselu', 750.00, '10:30:00', 'Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday', 'BEN009', 'Benjamin Moore'),
+('Oregbeni', 'New Benin', 550.00, '10:45:00', 'Monday, Tuesday, Wednesday, Thursday, Friday', 'BEN010', 'Ethan White'),
+('Ring Road', 'Ekenwan Road', 500.00, '11:00:00', 'Monday, Wednesday, Friday', 'BEN011', 'Lucas Harris'),
+('Uselu', 'Ikpoba Hill', 600.00, '11:15:00', 'Saturday, Sunday', 'BEN012', 'Mason Clark'),
+('Ugbowo', 'Sapele Road', 500.00, '11:30:00', 'Tuesday, Thursday, Saturday', 'BEN013', 'Mia Lewis'),
+('New Benin', 'Ring Road', 450.00, '11:45:00', 'Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday', 'BEN014', 'Jackson Wilson'),
+('Oregbeni', 'Airport Road', 700.00, '12:00:00', 'Monday, Tuesday, Wednesday, Thursday, Friday', 'BEN015', 'Sofia Kelly');
